@@ -1,0 +1,47 @@
+Computer architecture is the end to end structure of a computer that determines how its components interact with each other in helping the machine’s overall purpose.
+The main components of modern Computer architecture are listed below:
+1. CPU  It is known as the brain of the computer
+It is mainly made of the ALU, CU and registers.
+ALU  Has the responsibility to carry our calculations
+CU  Controls how the instructions are executed.
+Registers  A very small memory inside of the CPU
+2. Memory This part stores data and programs
+It comprises of:
+RamTemporary and fast memory which is erased when power is off.
+ROM  Permanent storage for data and programs.
+Cache  Very fast memory close to the CPU.
+3. Input and output devices  How the computer interact with the outer world.
+For example, an input device would be a keyboard, and an output device would be a motor or a printer.
+4. Buses  This is the communication pathway along which addresses and data moves in.
+Most Architecture use the fetch-decode-execute cycle.
+
+The two most famous Architecture:
+
+1. Von Neumann
+A digital computer architecture where the design is based on the concept of stored program computers where program data and instructions are stored in the same memory.
+This makes provides simplicity as all data and instructions are stored in a single memory space which helps the designing of a computer system. However, bottleneck issues may arise where data and control instructions cannot be obtained thus making it slow.
+2. Harvard
+A digital computer architecture whose design is based on the concept where there are separate storage and separate buses for instruction and data. 
+It overcomes the bottleneck of Von Neumann Architecture. This in turns provides much faster processing, improved security and efficient use of resources.
+This is used by Microcontrollers.
+Microcontroller:
+A microcontroller is known as a self-contained computer on a chip which is used to control a specific task or device.
+The chip contains the memory, the processor, input output terminals and other important parts.
+An example of a microcontroller would be an Arduino Uno which is widely used for robotics projects.
+A micro-controller continuously reads data from inputs like sensors, processes the data using a specific programs and controls the output of an Actuator.
+It is to be notes that a microcontroller does not need an OS and usually only requires low power for it to be working.
+It is also relatively small in size.
+
+General Purpose Computers:
+This is a computer system designed to perform various types of tasks unlike a micro-controller which normally carries out one specific task.
+It can run a great range of applications and can perform many tasks depending on the software and applications running on it. In addition, the software can be regularly updated unlike micro-controllers.
+A key factor of General-purpose computers is that it requires an OS unlike a micro-controller which does not. The OS manages memory files, apps and even the hardware connected to it.
+Moreover, it has a very powerful CPU and has very large RAM. Some often include GPUs.
+However concerning their sizes, a general-purpose computer is much bigger than a micro-controller.
+In most cases, General Computers are used to for web-browsing, Gaming, Office work and many others. 
+
+
+
+
+
+
