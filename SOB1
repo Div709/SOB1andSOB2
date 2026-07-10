@@ -1,0 +1,28 @@
+System to be modelled:
+Automatic Emergency Break of a car (AEB)
+For this modelling, sensors like radar sensors, camera sensors, wheel speed sensors and braking pedal sensors will be used.
+This system is used in modern cars to prevent or reduce the risk of accidents.
+It is usually placed in the front bumper of cars.
+This system plays a crucial role in nowadays road system.
+PSEUDOCODE:
+Get SpeedOfCar
+If SpeedOfCar > 0
+	Read data from forward facing sensor
+	Read data from camera sensor
+		If ObjectDetected = True
+			calculate distanceFromObject 
+			calculate relativeSpeed
+				If PotentialRisk = True
+					 If braking is applied = True
+						no action
+					else
+						applyBraking
+					end
+				else
+					no action
+				end
+		else
+			no action
+else 
+	no action
+end
